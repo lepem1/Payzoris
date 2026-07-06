@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PAYNET — Virtual Cards, Infinite Possibilities | Secure Online Payments</title>
+  <meta name="description" content="Paynet lets you create secure virtual cards instantly for online shopping, subscriptions, and business expenses. Control spending, protect your real card details, and manage finances from one sleek dashboard." />
+  <meta name="keywords" content="virtual card, virtual credit card, online payments, secure payments, digital wallet, prepaid card, paynet" />
+  <meta name="robots" content="index, follow" />
+  <meta name="author" content="Paynet" />
+  <meta name="theme-color" content="#000000" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Paynet" />
+  <meta property="og:title" content="Paynet — Virtual Cards, Infinite Possibilities" />
+  <meta property="og:description" content="Create secure virtual cards instantly. Control spending, protect your real card, and manage your finances from one sleek dashboard." />
+  <meta property="og:image" content="https://paynet.app/og-image.png" />
+  <meta property="og:url" content="https://paynet.app" />
+  <meta property="og:locale" content="en_US" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Paynet — Virtual Cards, Infinite Possibilities" />
+  <meta name="twitter:description" content="Create secure virtual cards instantly. Control spending, protect your real card, and manage your finances from one sleek dashboard." />
+  <meta name="twitter:image" content="https://paynet.app/og-image.png" />
+
+  <link rel="canonical" href="https://paynet.app" />
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><polygon points='16,2 28,9 28,23 16,30 4,23 4,9' fill='%23FFC000'/></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;500;600;700;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <button class="hamburger" id="hamburger" aria-label="MENU">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-label">MENU</span>
+      </button>
+      <div class="nav-brand">
+        <a href="#" class="logo">
+          <span class="logo-diamond">◆</span>
+          <span class="logo-text">PAYNET</span>
+          <span class="logo-gold-dot"></span>
+        </a>
+      </div>
+      <div class="nav-right">
+        <a href="#" class="btn btn-accent btn-sm">GET STARTED</a>
+        <button class="nav-icon-btn" aria-label="Search">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        </button>
+      </div>
+    </div>
+    <div class="nav-overlay" id="navOverlay">
+      <div class="nav-menu">
+        <a href="#features" class="nav-menu-link">FEATURES</a>
+        <a href="#how" class="nav-menu-link">HOW IT WORKS</a>
+        <a href="#pricing" class="nav-menu-link">PRICING</a>
+        <a href="#testimonials" class="nav-menu-link">TESTIMONIALS</a>
+        <div class="nav-menu-cta">
+          <a href="#" class="btn btn-accent">GET STARTED</a>
+          <a href="#" class="btn btn-ghost">SIGN IN</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="hero">
+    <canvas id="heroCanvas"></canvas>
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-text-col">
+          <div class="hero-badge">BETA — 10,000+ ACTIVE USERS</div>
+          <h1>VIRTUAL CARDS.<br /><span class="gold">INFINITE<br />POSSIBILITIES.</span></h1>
+          <p>Create secure virtual cards instantly for online shopping, subscriptions, and business expenses. Control spending, protect your real card details, and manage your finances from one sleek dashboard.</p>
+          <div class="hero-cta">
+            <a href="#" class="btn btn-accent btn-lg">CREATE YOUR FREE CARD</a>
+            <a href="#" class="btn btn-ghost btn-lg">WATCH DEMO →</a>
+          </div>
+          <div class="hero-stats">
+            <div class="stat">
+              <span class="stat-number" data-target="500000">0</span>
+              <span class="stat-label">CARDS CREATED</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number" data-target="150">0</span>
+              <span class="stat-label">COUNTRIES</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number" data-target="99.9">0</span>
+              <span class="stat-label">UPTIME (%)</span>
+            </div>
+          </div>
+        </div>
+        <div class="hero-card-col">
+          <div class="demo-card" id="demoCard">
+            <div class="demo-card-border-glow"></div>
+            <div class="demo-card-inner">
+              <div class="demo-card-bg-pattern"></div>
+              <div class="demo-card-accent-stripe"></div>
+              <div class="demo-card-top">
+                <div class="demo-card-brand">
+                  <span class="demo-card-brand-icon">◆</span>
+                  <span>PAYNET</span>
+                </div>
+                <div class="demo-card-top-right">
+                  <div class="demo-card-chip">
+                    <div class="demo-card-chip-inner"></div>
+                  </div>
+                  <div class="demo-card-contactless">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.5)" stroke-width="1.2"><path d="M2 12c0 0 4-5 10-5s10 5 10 5"/><path d="M5 12c0 0 2.5-3 7-3s7 3 7 3"/><path d="M8.5 12c0 0 1-1.5 3.5-1.5s3.5 1.5 3.5 1.5"/><circle cx="12" cy="13" r="1" fill="rgba(255,255,255,0.5)"/></svg>
+                  </div>
+                </div>
+              </div>
+              <div class="demo-card-number">
+                <span class="demo-card-digits">5284</span>
+                <span class="demo-card-masked">••••</span>
+                <span class="demo-card-masked">••••</span>
+                <span class="demo-card-digits">8942</span>
+              </div>
+              <div class="demo-card-details">
+                <div class="demo-card-field">
+                  <span class="demo-card-label">VALID THRU</span>
+                  <span class="demo-card-value">12/28</span>
+                </div>
+                <div class="demo-card-field">
+                  <span class="demo-card-label">CVV</span>
+                  <span class="demo-card-value">•••</span>
+                </div>
+                <div class="demo-card-network">
+                  <div class="demo-card-network-inner">
+                    <div class="demo-card-network-circle demo-card-network-circle-left"></div>
+                    <div class="demo-card-network-circle demo-card-network-circle-right"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="demo-card-footer">
+                <div class="demo-card-holder">ALEX MORGAN</div>
+                <div class="demo-card-type">PREMIUM</div>
+              </div>
+              <div class="demo-card-shine"></div>
+              <div class="demo-card-cursor-glow" id="cardCursorGlow"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-progress" id="heroProgress"></div>
+  </section>
+
+  <!-- ===== FEATURES ===== -->
+  <section class="section features" id="features">
+    <div class="container">
+      <div class="section-header">
+        <h2>WHY PAYNET?</h2>
+        <p>Everything you need to manage spending across your personal and business life.</p>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card reveal">
+          <div class="feature-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="1" y="4" width="22" height="16" rx="2"/><line x1="1" y1="10" x2="23" y2="10"/></svg>
+          </div>
+          <h3>INSTANT VIRTUAL CARDS</h3>
+          <p>Generate unlimited virtual cards in seconds. Each with its own number, CVV, and spending limits.</p>
+        </div>
+        <div class="feature-card reveal">
+          <div class="feature-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="23"/><line x1="8" y1="23" x2="16" y2="23"/></svg>
+          </div>
+          <h3>SPEND CONTROL</h3>
+          <p>Set per-card limits, lock or freeze instantly, and get real-time notifications for every transaction.</p>
+        </div>
+        <div class="feature-card reveal">
+          <div class="feature-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/></svg>
+          </div>
+          <h3>PRIVACY FIRST</h3>
+          <p>Your real card details stay hidden. Every virtual card acts as a secure shield against fraud and data breaches.</p>
+        </div>
+        <div class="feature-card reveal">
+          <div class="feature-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+          </div>
+          <h3>MULTI-DEVICE</h3>
+          <p>Manage cards from web, iOS, and Android. Your wallet syncs seamlessly across all your devices.</p>
+        </div>
+        <div class="feature-card reveal">
+          <div class="feature-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 1v22"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+          </div>
+          <h3>NO HIDDEN FEES</h3>
+          <p>Transparent pricing with zero annual fees. Pay only for what you use — no surprises, no fine print.</p>
+        </div>
+        <div class="feature-card reveal">
+          <div class="feature-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+          </div>
+          <h3>GLOBAL ACCEPTANCE</h3>
+          <p>Use your Paynet cards anywhere Visa and Mastercard are accepted — online and in-store with Apple Pay & Google Pay.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== HOW IT WORKS ===== -->
+  <section class="section how" id="how">
+    <div class="container">
+      <div class="section-header">
+        <h2>HOW IT WORKS</h2>
+        <p>Three simple steps to transform the way you pay online.</p>
+      </div>
+      <div class="steps">
+        <div class="step reveal">
+          <div class="step-number">01</div>
+          <div>
+            <h3>CREATE AN ACCOUNT</h3>
+            <p>Sign up in under 60 seconds. No credit check, no paperwork — just your email and a secure password.</p>
+          </div>
+        </div>
+        <div class="step-line"></div>
+        <div class="step reveal">
+          <div class="step-number">02</div>
+          <div>
+            <h3>GENERATE YOUR CARD</h3>
+            <p>Name your card, set a spending limit, and choose single-use or recurring. Your virtual card is ready instantly.</p>
+          </div>
+        </div>
+        <div class="step-line"></div>
+        <div class="step reveal">
+          <div class="step-number">03</div>
+          <div>
+            <h3>SPEND WITH CONFIDENCE</h3>
+            <p>Use it anywhere online. Track every transaction in real-time. Freeze, delete, or top up with one click.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PRICING ===== -->
+  <section class="section pricing" id="pricing">
+    <div class="container">
+      <div class="section-header">
+        <h2>SIMPLE PRICING</h2>
+        <p>Choose the plan that fits your lifestyle. Upgrade anytime.</p>
+      </div>
+      <div class="pricing-grid">
+        <div class="pricing-card reveal">
+          <h3>STARTER</h3>
+          <p class="price"><span class="currency">$</span>0</p>
+          <p class="price-period">FREE FOREVER</p>
+          <ul class="pricing-features">
+            <li><span class="check"></span> 3 VIRTUAL CARDS</li>
+            <li><span class="check"></span> $500 MONTHLY LIMIT</li>
+            <li><span class="check"></span> REAL-TIME NOTIFICATIONS</li>
+            <li><span class="check"></span> BASIC ANALYTICS</li>
+          </ul>
+          <a href="#" class="btn btn-ghost pricing-btn">GET STARTED</a>
+        </div>
+        <div class="pricing-card popular reveal">
+          <div class="popular-badge">MOST POPULAR</div>
+          <h3>PRO</h3>
+          <p class="price"><span class="currency">$</span>9</p>
+          <p class="price-period">PER MONTH</p>
+          <ul class="pricing-features">
+            <li><span class="check"></span> UNLIMITED VIRTUAL CARDS</li>
+            <li><span class="check"></span> $10,000 MONTHLY LIMIT</li>
+            <li><span class="check"></span> TEAM MANAGEMENT</li>
+            <li><span class="check"></span> ADVANCED ANALYTICS</li>
+            <li><span class="check"></span> PRIORITY SUPPORT</li>
+            <li><span class="check"></span> APPLE PAY & GOOGLE PAY</li>
+          </ul>
+          <a href="#" class="btn btn-accent pricing-btn">START FREE TRIAL</a>
+        </div>
+        <div class="pricing-card reveal">
+          <h3>BUSINESS</h3>
+          <p class="price"><span class="currency">$</span>29</p>
+          <p class="price-period">PER MONTH</p>
+          <ul class="pricing-features">
+            <li><span class="check"></span> EVERYTHING IN PRO</li>
+            <li><span class="check"></span> $100,000 MONTHLY LIMIT</li>
+            <li><span class="check"></span> API ACCESS</li>
+            <li><span class="check"></span> CUSTOM INTEGRATIONS</li>
+            <li><span class="check"></span> DEDICATED MANAGER</li>
+            <li><span class="check"></span> SLA GUARANTEE</li>
+          </ul>
+          <a href="#" class="btn btn-ghost pricing-btn">CONTACT SALES</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIALS ===== -->
+  <section class="section testimonials" id="testimonials">
+    <div class="container">
+      <div class="section-header">
+        <h2>LOVED BY THOUSANDS</h2>
+        <p>Hear from people who transformed their spending with Paynet.</p>
+      </div>
+      <div class="testimonial-grid">
+        <div class="testimonial-card reveal">
+          <div class="testimonial-quote">"</div>
+          <p>Paynet completely changed how I manage subscriptions. I finally know exactly where my money goes every month.</p>
+          <div class="testimonial-author">
+            <div class="testimonial-line"></div>
+            <div>
+              <strong>SARAH MITCHELL</strong>
+              <span>FREELANCE DESIGNER</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card reveal">
+          <div class="testimonial-quote">"</div>
+          <p>The team management feature is a game-changer. I can issue cards to my team with specific limits in seconds.</p>
+          <div class="testimonial-author">
+            <div class="testimonial-line"></div>
+            <div>
+              <strong>JAMES DAWSON</strong>
+              <span>STARTUP FOUNDER</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card reveal">
+          <div class="testimonial-quote">"</div>
+          <p>I use single-use cards for every online purchase. Not a single fraud incident since I switched to Paynet.</p>
+          <div class="testimonial-author">
+            <div class="testimonial-line"></div>
+            <div>
+              <strong>EMILY LIU</strong>
+              <span>CYBERSECURITY ANALYST</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CTA ===== -->
+  <section class="section cta">
+    <div class="container">
+      <div class="cta-section">
+        <div class="cta-content">
+          <h2>READY TO TAKE CONTROL?</h2>
+          <p>Join 10,000+ savvy spenders. Create your first virtual card free — no commitment, no credit check.</p>
+          <div class="cta-buttons">
+            <a href="#" class="btn btn-accent btn-lg">GET STARTED FREE</a>
+            <a href="#" class="btn btn-ghost btn-lg">TALK TO SALES →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="logo">◆ PAYNET</div>
+          <p>Virtual cards for the modern world. Secure, instant, and built for the way you spend today.</p>
+          <div class="social-links">
+            <a href="#" aria-label="Twitter"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+            <a href="#" aria-label="GitHub"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg></a>
+            <a href="#" aria-label="LinkedIn"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <h4>PRODUCT</h4>
+          <a href="#">FEATURES</a>
+          <a href="#">PRICING</a>
+          <a href="#">INTEGRATIONS</a>
+          <a href="#">API</a>
+        </div>
+        <div class="footer-links">
+          <h4>COMPANY</h4>
+          <a href="#">ABOUT</a>
+          <a href="#">BLOG</a>
+          <a href="#">CAREERS</a>
+          <a href="#">PRESS</a>
+        </div>
+        <div class="footer-links">
+          <h4>SUPPORT</h4>
+          <a href="#">HELP CENTER</a>
+          <a href="#">CONTACT</a>
+          <a href="#">STATUS</a>
+          <a href="#">SECURITY</a>
+        </div>
+      </div>
+        <div class="footer-bottom">
+        <p>&copy; 2026 PAYNET. ALL RIGHTS RESERVED. &mdash; WEBSITE MADE BY <a href="https://f9xr.github.io" target="_blank" class="footer-f9xr">F9XR TEAM</a></p>
+          <div class="footer-badges">
+          <span>PCI DSS COMPLIANT</span>
+          <span>256-BIT ENCRYPTION</span>
+          <span>GDPR COMPLIANT</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="hex-cursor" id="hexCursor"></div>
+  <script src="scripts.js"></script>
+</body>
+</html>
