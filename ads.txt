@@ -1,0 +1,5 @@
+# Ads.txt for Payzoris
+# https://payzoris.lepem.xyz/ads.txt
+
+# No advertising networks currently active.
+# This file will be updated when direct ad partnerships are established.

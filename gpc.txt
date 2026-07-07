@@ -1,0 +1,11 @@
+# Global Privacy Control (GPC) — Payzoris
+# https://payzoris.lepem.xyz/gpc.txt
+
+# Payzoris respects the Global Privacy Control signal.
+# When a GPC signal is received, we treat it as a request to opt out of
+# the sale or sharing of personal information under applicable privacy laws
+# (including CCPA, CPRA, and GDPR).
+
+# For more information, visit: https://globalprivacycontrol.org
+
+Last updated: 2026-07-07

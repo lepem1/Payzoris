@@ -1,0 +1,13 @@
+{
+  "name": "payzoris",
+  "version": "1.0.0",
+  "description": "Virtual cards, infinite possibilities — Payzoris landing page and blog",
+  "private": true,
+  "license": "MIT",
+  "author": "F9XR Team",
+  "homepage": "https://payzoris.lepem.xyz",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lepem1/paynet.git"
+  }
+}

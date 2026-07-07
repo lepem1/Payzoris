@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+  <url>
+    <loc>https://payzoris.lepem.xyz/</loc>
+    <video:video>
+      <video:thumbnail_loc>https://payzoris.lepem.xyz/og-image.png</video:thumbnail_loc>
+      <video:title>Payzoris — Virtual Cards Demo</video:title>
+      <video:description>Watch how Payzoris virtual cards work in seconds.</video:description>
+    </video:video>
+  </url>
+</urlset>

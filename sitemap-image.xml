@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://payzoris.lepem.xyz/</loc>
+    <image:image>
+      <image:loc>https://payzoris.lepem.xyz/og-image.png</image:loc>
+      <image:title>Payzoris — Virtual Cards, Infinite Possibilities</image:title>
+      <image:caption>Payzoris virtual card platform preview</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://payzoris.lepem.xyz/blog/welcome-to-payzoris.html</loc>
+    <image:image>
+      <image:loc>https://payzoris.lepem.xyz/og-image.png</image:loc>
+      <image:title>Welcome to Payzoris</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://payzoris.lepem.xyz/blog/virtual-cards-vs-traditional.html</loc>
+    <image:image>
+      <image:loc>https://payzoris.lepem.xyz/og-image.png</image:loc>
+      <image:title>Virtual Cards vs Traditional Credit Cards</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://payzoris.lepem.xyz/blog/how-to-protect-online-purchases.html</loc>
+    <image:image>
+      <image:loc>https://payzoris.lepem.xyz/og-image.png</image:loc>
+      <image:title>How to Protect Online Purchases from Fraud</image:title>
+    </image:image>
+  </url>
+</urlset>

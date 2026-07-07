@@ -1,0 +1,28 @@
+# All URLs — Payzoris
+# https://payzoris.lepem.xyz/all-urls.txt
+
+# Core
+https://payzoris.lepem.xyz/
+https://payzoris.lepem.xyz/404.html
+
+# Blog
+https://payzoris.lepem.xyz/blog/
+https://payzoris.lepem.xyz/blog/welcome-to-payzoris.html
+https://payzoris.lepem.xyz/blog/virtual-cards-vs-traditional.html
+https://payzoris.lepem.xyz/blog/how-to-protect-online-purchases.html
+
+# Site Files
+https://payzoris.lepem.xyz/ads.txt
+https://payzoris.lepem.xyz/ai.txt
+https://payzoris.lepem.xyz/all-urls.txt
+https://payzoris.lepem.xyz/gpc.txt
+https://payzoris.lepem.xyz/humans.txt
+https://payzoris.lepem.xyz/llms.txt
+https://payzoris.lepem.xyz/llms-full.txt
+https://payzoris.lepem.xyz/robots.txt
+https://payzoris.lepem.xyz/sitemap.xml
+https://payzoris.lepem.xyz/sitemap-image.xml
+https://payzoris.lepem.xyz/sitemap-video.xml
+
+# Well-Known
+https://payzoris.lepem.xyz/.well-known/security.txt

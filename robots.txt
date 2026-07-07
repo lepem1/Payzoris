@@ -1,6 +1,8 @@
 User-agent: *
 Allow: /
 Sitemap: https://payzoris.lepem.xyz/sitemap.xml
+Sitemap: https://payzoris.lepem.xyz/sitemap-image.xml
+Sitemap: https://payzoris.lepem.xyz/sitemap-video.xml
 
 # AI crawler rules
 User-agent: GPTBot
