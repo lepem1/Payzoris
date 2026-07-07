@@ -14,5 +14,9 @@ Thumbs.db
 .env
 .env.local
 
+# Skills
+SKILL.md
+SKILLs.md
+
 # Dependencies
 node_modules/
