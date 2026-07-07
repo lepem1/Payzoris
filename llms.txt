@@ -15,3 +15,7 @@ Payzoris lets you create secure virtual cards instantly for online shopping, sub
 ## Pages
 
 - Home: https://payzoris.lepem.xyz/
+- Blog: https://payzoris.lepem.xyz/blog/
+- Welcome to Payzoris: https://payzoris.lepem.xyz/blog/welcome-to-payzoris.html
+- Virtual Cards vs Traditional: https://payzoris.lepem.xyz/blog/virtual-cards-vs-traditional.html
+- Protect Online Purchases: https://payzoris.lepem.xyz/blog/how-to-protect-online-purchases.html
