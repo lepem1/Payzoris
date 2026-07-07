@@ -1,0 +1,54 @@
+# Payzoris — Full Site Reference
+> Virtual cards, infinite possibilities.
+
+## About
+
+Payzoris is a virtual card platform that enables users to create secure virtual cards instantly for online shopping, subscriptions, and business expenses. The platform provides spend control, fraud protection, and multi-device management.
+
+URL: https://payzoris.lepem.xyz
+
+## Features
+
+### Instant Virtual Cards
+Generate unlimited virtual cards in seconds. Each card comes with its own unique number, CVV, and customizable spending limits. Perfect for one-time purchases, subscriptions, and recurring payments.
+
+### Spend Control
+Set per-card spending limits, lock or freeze cards instantly, and receive real-time notifications for every transaction. Full visibility and control over where your money goes.
+
+### Privacy First
+Your real card details stay completely hidden. Every virtual card acts as a secure shield against fraud and data breaches. No merchant ever sees your actual banking details.
+
+### Multi-Device Management
+Manage all your virtual cards from web, iOS, and Android apps. Your wallet syncs seamlessly across all your devices.
+
+### No Hidden Fees
+Transparent pricing with zero annual fees. Pay only for what you use — no surprises, no fine print.
+
+### Global Acceptance
+Use your Payzoris cards anywhere Visa and Mastercard are accepted — online and in-store with Apple Pay and Google Pay.
+
+## Pricing
+
+| Plan | Price | Cards | Monthly Limit |
+|------|-------|-------|---------------|
+| Starter | Free | 3 | $500 |
+| Pro | $9/mo | Unlimited | $10,000 |
+| Business | $29/mo | Unlimited | $100,000 |
+
+## How It Works
+
+1. **Create an Account** — Sign up in under 60 seconds. No credit check, no paperwork. Just your email and a secure password.
+2. **Generate Your Card** — Name your card, set a spending limit, and choose single-use or recurring. Your virtual card is ready instantly.
+3. **Spend with Confidence** — Use it anywhere online. Track every transaction in real-time. Freeze, delete, or top up with one click.
+
+## Technical Details
+
+- PCI DSS Compliant
+- 256-Bit Encryption
+- GDPR Compliant
+- BETA — 10,000+ Active Users
+
+## Contact
+
+- Website: https://payzoris.lepem.xyz
+- Help Center: https://payzoris.lepem.xyz/#support

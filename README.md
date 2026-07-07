@@ -1,4 +1,4 @@
-# Paynet
+# Payzoris
 
 > Virtual cards, infinite possibilities.
 

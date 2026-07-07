@@ -1,3 +1,32 @@
 User-agent: *
 Allow: /
-Sitemap: https://paynet.app/sitemap.xml
+Sitemap: https://payzoris.lepem.xyz/sitemap.xml
+
+# AI crawler rules
+User-agent: GPTBot
+Allow: /
+Disallow: /private/
+
+User-agent: ClaudeBot
+Allow: /
+Disallow: /private/
+
+User-agent: Claude-Web
+Allow: /
+Disallow: /private/
+
+User-agent: Google-Extended
+Allow: /
+Disallow: /private/
+
+User-agent: anthropic-ai
+Allow: /
+Disallow: /private/
+
+User-agent: CCBot
+Allow: /
+Disallow: /private/
+
+User-agent: PerplexityBot
+Allow: /
+Disallow: /private/

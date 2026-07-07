@@ -1,0 +1,17 @@
+# Payzoris
+> Virtual cards, infinite possibilities.
+
+Payzoris lets you create secure virtual cards instantly for online shopping, subscriptions, and business expenses. Control spending, protect your real card details, and manage finances from one sleek dashboard.
+
+## Key Features
+
+- **Instant Virtual Cards**: Generate unlimited virtual cards in seconds with unique numbers, CVV, and spending limits.
+- **Spend Control**: Set per-card limits, lock or freeze instantly, get real-time transaction notifications.
+- **Privacy First**: Real card details stay hidden. Each virtual card acts as a shield against fraud.
+- **Multi-Device**: Manage cards from web, iOS, and Android with seamless sync.
+- **No Hidden Fees**: Transparent pricing with zero annual fees.
+- **Global Acceptance**: Use anywhere Visa and Mastercard are accepted.
+
+## Pages
+
+- Home: https://payzoris.lepem.xyz/
