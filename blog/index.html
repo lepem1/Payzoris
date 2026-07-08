@@ -65,8 +65,12 @@
         <a href="../#testimonials" class="nav-menu-link">TESTIMONIALS</a>
         <a href="../blog/" class="nav-menu-link">BLOG</a>
         <div class="nav-menu-cta">
-          <a href="../" class="btn btn-accent">GET STARTED</a>
-          <a href="#" class="btn btn-ghost">SIGN IN</a>
+      <button class="btn btn-accent btn-sm" id="openAccountModal">
+    GET STARTED
+</button>
+         <a href="/pages/login.html" class="btn btn-ghost">
+    SIGN IN
+</a>
         </div>
       </div>
     </div>
@@ -184,6 +188,84 @@
     </div>
   </footer>
 
+<!-- ===== ACCOUNT TYPE MODAL ===== -->
+<div class="modal" id="accountModal">
+
+    <div class="modal-content">
+
+        <button class="close-modal" id="closeModal">
+            &times;
+        </button>
+
+        <div class="modal-header">
+
+            <div class="modal-icon">
+                ◆
+            </div>
+
+            <h2>Create your Payzoris account</h2>
+
+            <p>
+                Choose the type of account you'd like to create.
+                You can change some details later.
+            </p>
+
+        </div>
+
+        <div class="account-options">
+
+            <a href="/pages/personal.html" class="account-card">
+
+                <div class="account-icon">
+                    👤
+                </div>
+
+                <div class="account-info">
+
+                    <h3>Personal Account</h3>
+
+                    <p>
+                        Create virtual cards, manage your crypto wallet,
+                        and make secure online payments.
+                    </p>
+
+                </div>
+
+                <span class="account-arrow">
+                    →
+                </span>
+
+            </a>
+
+            <a href="/pages/business.html" class="account-card">
+
+                <div class="account-icon">
+                    🏢
+                </div>
+
+                <div class="account-info">
+
+                    <h3>Business Account</h3>
+
+                    <p>
+                        Accept payments, manage your company,
+                        and issue cards for your team.
+                    </p>
+
+                </div>
+
+                <span class="account-arrow">
+                    →
+                </span>
+
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+  
   <script src="../assets/scripts.js"></script>
 </body>
 </html>
