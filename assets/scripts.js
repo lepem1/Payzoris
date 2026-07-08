@@ -233,3 +233,40 @@
     observer.observe(el);
   }
 })();
+
+/* ===== ACCOUNT MODAL ===== */
+(function () {
+    const modal = document.getElementById("accountModal");
+    const openButtons = document.querySelectorAll("#openAccountModal");
+    const closeButton = document.getElementById("closeAccountModal");
+
+    if (!modal) return;
+
+    openButtons.forEach(btn => {
+        btn.addEventListener("click", () => {
+            modal.classList.add("active");
+            document.body.style.overflow = "hidden";
+        });
+    });
+
+    if (closeButton) {
+        closeButton.addEventListener("click", () => {
+            modal.classList.remove("active");
+            document.body.style.overflow = "";
+        });
+    }
+
+    modal.addEventListener("click", (e) => {
+        if (e.target === modal) {
+            modal.classList.remove("active");
+            document.body.style.overflow = "";
+        }
+    });
+
+    document.addEventListener("keydown", (e) => {
+        if (e.key === "Escape") {
+            modal.classList.remove("active");
+            document.body.style.overflow = "";
+        }
+    });
+})();
