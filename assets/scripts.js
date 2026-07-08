@@ -238,7 +238,7 @@
 (function () {
     const modal = document.getElementById("accountModal");
     const openButtons = document.querySelectorAll("#openAccountModal");
-    const closeButton = document.getElementById("closeAccountModal");
+    const closeButton = document.getElementById("closeModal");
 
     if (!modal) return;
 
